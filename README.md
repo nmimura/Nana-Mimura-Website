@@ -1,5 +1,5 @@
 # nana-mimura-website
-A repo for my personal website!
+A repo for my personal website! WIP
 
 This website has been designed (via [Figma](https://www.figma.com/file/xVuzropjUN1O7zcc9IRnfi/nana-mimura)) and coded (via [SuperHi Editor](https://subeditor.superhi.com/)) by me (Nana Mimura).
 
