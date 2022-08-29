@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;0,700;1,600;1,800&family=Roboto:wght@400;700&display=swap');
 
+/* body styling */
+
 body {
   background-color: #ffffff;
 	color: #333333;
@@ -22,6 +24,8 @@ body.resume {
 body.contact {
   background-color: #F0F4F4;
 }
+
+/* header styling */
 
 header {
   display: flex;
@@ -70,6 +74,8 @@ nav a.color4:hover, nav a.color4.selected {
   border-bottom: 2px solid #597A7C;
 }
 
+/* general element styling */
+
 h1 {
   font-family: Nunito;
   font-size: 24px;
@@ -87,143 +93,13 @@ button {
   cursor: pointer;
   font-size: 24px;
   font-family: Nunito;
-  font-style: italic;
+  font-weight: 600;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
 }
 
 section {
   margin: 56px 0;
-}
-
-section.home, section.about, section.resume, section.contact, section.projects {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 32px 32px;
-  grid-auto-flow: dense;
-}
-
-section.home {
-  margin: 96px 0;
-}
-
-section.projects div.project {
-  width: 408px;
-  height: 456px;
-  border: 2px solid #e17637;
-  padding: 24px 28px;
-  background-color: #ffffff;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-section.projects div.left {
-  grid-column: 2 / span 4;
-}
-
-section.projects div.right {
-  grid-column: 8 / span 4;
-}
-
-section.projects img {
-  width: 352px;
-  height: 168px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-section.projects h1 {
-  text-align: left;
-  margin: 16px 0 0 0;
-}
-
-section.projects h2 {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  font-style: italic;
-  line-height: 1.5;
-  color: #787878;
-}
-
-section.projects button {
-  background-color: #e17637;
-  margin: 16px 0 0 0;
-}
-
-section.about div.image {
-  grid-column: 2 / span 5;
-  margin: 16px 0 0 0;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-section.about div.bio {
-  grid-column: 7 / span 5;
-}
-
-section.header {
-  margin: 56px 0 0 0;
-}
-
-section.header h1 {
-  color: #6e8a55;
-}
-
-section.header h1 a {
-  color: #6e8a55;
-  font-weight: 700;
-}
-
-section.image1 {
-	margin: 16px 0 0 0;
-}
-
-section.image2 {
-  margin: 16px 0 56px 0;
-}
-
-section.image1 img, section.image2 img {
-  grid-column: 4 / span 6;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-section.contact button {
-  background-color: #597a7c;
-}
-
-section.contact div.contact-side {
-  grid-column: 1 / span 7;
-}
-
-section.contact div.form {
-  margin: 0 48px;
-  padding: 24px 48px;
-  background-color: #b6cfcf;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-section.contact div.socials-side {
-  grid-column: 8 / span 5;
-  margin: 238px 0 0 0;
-}
-
-section.contact div.icons {
-  display: flex;
-  justify-content: center;
-}
-
-section.contact div.icon1 {
-  width: 56px;
-  height: 56px;
-  margin: 0 32px 0 0;
-}
-
-section.contact div.icon2 {
-  width: 66px;
-  height: 56px;
-  margin: 0 0 0 32px;
-}
-
-section.contact div.contact-side h1, section.contact div.socials-side h1 {
-  margin: 0 0 24px 0;
-  color: #597a7c;
 }
 
 span {
@@ -256,7 +132,6 @@ label {
   font-family: Nunito;
   font-weight: 600;
   font-size: 20px;
-  font-style: italic;
   line-height: 1.2;
   color: #333333;
 }
@@ -269,6 +144,7 @@ input, textarea {
   font-size: 16px;
   margin: 0 0 12px 0;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
 }
 
 input {
@@ -295,7 +171,163 @@ p, footer {
   line-height: 1.5;
 }
 
-footer {
+footer div {
   color: #A9A9A9;
+  grid-column: 5 / span 4;
   text-align: center;
+}
+
+/* page-specific element styling */
+
+section.home, section.projects, section.about, section.resume, section.contact, footer {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px 32px;
+  grid-auto-flow: dense;
+}
+
+/* index.html-specific element styling */
+
+section.home {
+  margin: 96px 0;
+}
+
+/* projects.html-specific element styling */
+
+section.projects div.project {
+  width: 544px;
+  height: 300px;
+  border: 2px solid #F0C0A8;
+  padding: 32px;
+  background-color: #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+}
+
+section.projects div.left {
+  grid-column: 1 / span 6;
+}
+
+section.projects div.right {
+  grid-column: 7 / span 6;
+}
+
+section.projects img {
+  width: 167px;
+  height: 236px;
+  float: right;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin: 0 0 0 8px;
+}
+
+section.projects h1 {
+  text-align: left;
+  margin: 0 0 8px 0;
+}
+
+section.projects p.skills {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.5;
+  color: #787878;
+  position: absolute;
+  bottom: 88px;
+}
+
+section.projects button {
+  background-color: #e17637;
+  position: absolute;
+  bottom: 32px;
+}
+
+section.projects div.info {
+  width: 300px;
+  float: left;
+}
+
+/* about.html-specific element styling */
+
+section.about div.image {
+  grid-column: 2 / span 5;
+  margin: 16px 0 0 0;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+section.about div.bio {
+  grid-column: 7 / span 5;
+}
+
+/* resume.html-specific element styling */
+
+section.header {
+  margin: 56px 0 0 0;
+}
+
+section.header h1 {
+  color: #6e8a55;
+}
+
+section.header h1 a {
+  color: #6e8a55;
+  font-weight: 700;
+}
+
+section.image1 {
+	margin: 16px 0 0 0;
+}
+
+section.image2 {
+  margin: 16px 0 56px 0;
+}
+
+section.image1 img, section.image2 img {
+  grid-column: 4 / span 6;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* contact.html-specific element styling */
+
+section.contact button {
+  background-color: #597a7c;
+}
+
+section.contact div.contact-side {
+  grid-column: 1 / span 7;
+}
+
+section.contact div.form {
+  margin: 0 84px;
+  padding: 24px;
+  background-color: #b6cfcf;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+}
+
+section.contact div.socials-side {
+  grid-column: 8 / span 5;
+  margin: 238px 0 0 0;
+}
+
+section.contact div.icons {
+  display: flex;
+  justify-content: center;
+}
+
+section.contact div.icon1 {
+  width: 56px;
+  height: 56px;
+  margin: 0 32px 0 0;
+}
+
+section.contact div.icon2 {
+  width: 66px;
+  height: 56px;
+  margin: 0 0 0 32px;
+}
+
+section.contact div.contact-side h1, section.contact div.socials-side h1 {
+  margin: 0 0 24px 0;
+  color: #597a7c;
 }
