@@ -12,6 +12,12 @@ Mockups:
 
 For full Figma file, click [here](https://www.figma.com/file/xVuzropjUN1O7zcc9IRnfi/nana-mimura).
 
+## Code
+Languages used: HTML, CSS
+
 ## Future Plans
 1. Add more media queries for different screen sizes
 2. Increase image loading speed
+
+## Acknowledgements
+Special thanks to SuperHi's [Plan, Design + Code Your First Website](https://student.superhi.com/plan-design-code) course, which helped me learn the basics of website-building.
