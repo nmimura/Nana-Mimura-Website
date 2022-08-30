@@ -17,6 +17,10 @@ For full Figma file, click [here](https://www.figma.com/file/xVuzropjUN1O7zcc9IR
 ## Code
 Languages used: HTML, CSS
 
+## Version Notes
+Version 1.0 (8/29/2022)
+- First pass of all pages completed
+
 ## Future Plans
 1. Add more media queries for different screen sizes
 2. Increase image loading speed
