@@ -18,8 +18,11 @@ For full Figma file, click [here](https://www.figma.com/file/xVuzropjUN1O7zcc9IR
 Languages used: HTML, CSS
 
 ## Version Notes
+Most recent version listed first
+
 Version 1.0 (8/29/2022)
 - First pass of all pages completed
+- Full desktop-size screen only
 
 ## Future Plans
 1. Add more media queries for different screen sizes
