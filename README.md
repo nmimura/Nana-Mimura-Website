@@ -1,7 +1,9 @@
 # Nana-Mimura-Website
-A repo for my personal website! WIP
+A repo for my personal website!
 
 This website has been designed (via Figma) and coded (via SuperHi Editor) by me (Nana Mimura).
+
+Link to my website is: https://nana-mimura.superhi.com/
 
 ## Design
 Initial wireframes:
