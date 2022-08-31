@@ -87,18 +87,19 @@ h1 {
 }
 
 button {
-  padding: 4px 16px;
+  padding: 4px 16px 4px 16px;
   border: none;
   color: #ffffff;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 20px;
   font-family: Nunito;
   font-weight: 600;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 5px;
+  transition: color 0.3s, background-color 0.3s;
 }
 
-section {
+section, ul {
   margin: 56px 0;
 }
 
@@ -160,7 +161,6 @@ input:focus, textarea:focus {
 }
 
 p a {
-  color: #F0A902;
   font-weight: 700;
 }
 
@@ -194,57 +194,72 @@ section.home {
 
 /* projects.html-specific element styling */
 
-section.projects div.project {
-  width: 544px;
-  height: 300px;
+ul.projects {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 32px;
+}
+
+ul.projects li {
   border: 2px solid #F0C0A8;
   padding: 32px;
   background-color: #ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 5px;
+  display: flex;
+  gap: 12px;
 }
 
-section.projects div.left {
-  grid-column: 1 / span 6;
+ul.projects div.info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
-section.projects div.right {
-  grid-column: 7 / span 6;
-}
-
-section.projects img {
-  width: 167px;
-  height: 236px;
-  float: right;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  margin: 0 0 0 8px;
-}
-
-section.projects h1 {
+ul.projects h1 {
   text-align: left;
-  margin: 0 0 8px 0;
+  margin: 0 0 8px;
 }
 
-section.projects p.skills {
+ul.projects a {
+  color: #e17637;
+}
+
+ul.projects div.bottom {
+  margin-top: auto;
+}
+
+ul.projects p.skills {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   font-style: italic;
   line-height: 1.5;
   color: #787878;
-  position: absolute;
-  bottom: 88px;
+  margin: 16px 0 0 0;
 }
 
-section.projects button {
+ul.projects div.buttons {
+  display: flex;
+  gap: 24px;
+  margin: 16px 0 0 0;
+}
+
+ul.projects button {
   background-color: #e17637;
-  position: absolute;
-  bottom: 32px;
 }
 
-section.projects div.info {
-  width: 300px;
-  float: left;
+ul.projects button:hover {
+  box-shadow:0px 0px 0px 1px #e17637 inset;
+  background-color: #fdf1ec;
+  color: #e17637;
+}
+
+ul.projects img {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  flex: 0.5;
+  align-self: center;
 }
 
 /* about.html-specific element styling */
@@ -257,6 +272,10 @@ section.about div.image {
 
 section.about div.bio {
   grid-column: 7 / span 5;
+}
+
+section.about a {
+  color: #F0A902;
 }
 
 /* resume.html-specific element styling */
@@ -291,6 +310,12 @@ section.image1 img, section.image2 img {
 
 section.contact button {
   background-color: #597a7c;
+}
+
+section.contact button:hover {
+  box-shadow:0px 0px 0px 2px #597a7c inset;
+  background-color: #f0f4f4;
+  color: #597a7c;
 }
 
 section.contact div.contact-side {
@@ -330,4 +355,20 @@ section.contact div.icon2 {
 section.contact div.contact-side h1, section.contact div.socials-side h1 {
   margin: 0 0 24px 0;
   color: #597a7c;
+}
+
+/* 
+media query for smaller desktop size
+max width = orig 1120 + 64 + 64 for edges
+*/
+@media (max-width: 1248px) {
+  body {
+    width: auto;
+    margin: 32px 64px;
+  }
+}
+
+/* media query for smaller screen size / large tablet size */
+@media (max-width: 1196px) {
+  
 }
