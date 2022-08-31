@@ -20,6 +20,10 @@ Languages used: HTML, CSS
 ## Version Notes
 Most recent version listed first
 
+Version 1.1 (8/31/2022)
+- Updated layout of projects to make page more responsive
+- Started adding media queries (pages will start scaling now)
+
 Version 1.0 (8/29/2022)
 - First pass of all pages completed
 - Full desktop-size screen only
