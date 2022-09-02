@@ -32,5 +32,11 @@ Version 1.0 (8/29/2022)
 1. Add more media queries for different screen sizes
 2. Increase image loading speed
 
-## Acknowledgements
+## Resources
 Special thanks to SuperHi's [Plan, Design + Code Your First Website](https://student.superhi.com/plan-design-code) course, which helped me learn the basics of website-building.
+
+Other Resources:
+- [MDN HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+- [MDN CSS reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+- [MDN media queries guide](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries)
+- [Formspree](https://formspree.io/) (API used for contact form)
