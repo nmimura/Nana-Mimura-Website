@@ -24,6 +24,7 @@ Version 1.2 (9/2/2022)
 - Adjusted margins of header and contact form
 - Increased project tile size to prevent image clipping
 - Replaced logo gifs and socials icons with ones that are sized more accurately to improve loading speed
+- Prevented button text from continuing to next line
 - Set up media query for screen sizes <978px
 
 Version 1.1 (8/31/2022)
