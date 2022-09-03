@@ -428,5 +428,32 @@ max width = orig 1120 + 64 + 64 for edges
 
 /* media query for medium tablet size */
 @media (max-width: 822px) {
+  nav {
+    font-size: 28px;
+  }
+  
+  h1 {
+    font-size: 20px;
+  }
+  
+  p, ul.projects p.skills {
+    font-size: 14px;
+  }
+  
+  button, label {
+    font-size: 16px;
+  }
+  
+  section.contact img {
+    transform: scale(0.75);
+  }
+  
+  footer {
+    font-size: 12px;
+  }
+}
+
+/* media query for smaller tablet size */
+@media (max-width: 668px) {
   
 }
