@@ -22,7 +22,7 @@ Most recent version listed first
 
 Version 1.3 (in progress)
 - Updated date in footer
-- Set up media query for screen sizes <822px
+- Set up media query for screen sizes <822px and <668px
 
 Version 1.2 (9/2/2022)
 - Adjusted margins of header and contact form
