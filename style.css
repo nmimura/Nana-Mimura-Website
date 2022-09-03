@@ -5,7 +5,7 @@
 body {
   background-color: #ffffff;
 	color: #333333;
-	margin: 32px auto 32px auto;
+	margin: 32px auto;
 	width: 1120px;
 }
 
@@ -33,10 +33,10 @@ header {
   justify-content: space-between;
 }
 
-header a img {
+/* header a img {
   width: 212px;
   height: 104px;
-}
+} */
 
 nav {
 	font-family: Nunito;
@@ -52,6 +52,10 @@ nav a {
   color: #333333;
   transition: color 0.3s, border-bottom 0.3s;
   border-bottom: 2px solid transparent;
+}
+
+nav a.color1 {
+  margin: 0;
 }
 
 nav a.color1:hover, nav a.color1.selected {
@@ -87,7 +91,7 @@ h1 {
 }
 
 button {
-  padding: 4px 16px 4px 16px;
+  padding: 4px 16px;
   border: none;
   color: #ffffff;
   cursor: pointer;
@@ -143,7 +147,7 @@ input, textarea {
   border: 2px solid #333333;
   font-style: normal;
   font-size: 16px;
-  margin: 0 0 12px 0;
+  margin: 0 0 12px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 5px;
 }
@@ -197,7 +201,7 @@ section.home {
 ul.projects {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(440px, 1fr));
   gap: 32px;
 }
 
@@ -302,7 +306,7 @@ section.image2 {
 }
 
 section.image1 img, section.image2 img {
-  grid-column: 4 / span 6;
+  grid-column: 3 / span 8;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -323,7 +327,7 @@ section.contact div.contact-side {
 }
 
 section.contact div.form {
-  margin: 0 84px;
+  margin: 0 48px;
   padding: 24px;
   background-color: #b6cfcf;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -338,17 +342,18 @@ section.contact div.socials-side {
 section.contact div.icons {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 section.contact div.icon1 {
-  width: 56px;
-  height: 56px;
+/*   width: 56px;
+  height: 56px; */
   margin: 0 32px 0 0;
 }
 
 section.contact div.icon2 {
-  width: 66px;
-  height: 56px;
+/*   width: 66px;
+  height: 56px; */
   margin: 0 0 0 32px;
 }
 
@@ -369,6 +374,47 @@ max width = orig 1120 + 64 + 64 for edges
 }
 
 /* media query for smaller screen size / large tablet size */
-@media (max-width: 1196px) {
+@media (max-width: 978px) {
+  header {
+    flex-direction: column;
+  }
   
+  section.about, section.resume, section.contact, footer {
+    grid-template-columns: repeat(6, 1fr);
+  	gap: 24px 24px;
+  }
+  
+  section.about div.image, 
+  section.about div.bio,
+  section.header h1, 
+  section.image1 img, 
+  section.image2 img, 
+  section.contact div.contact-side, 
+  section.contact div.socials-side, 
+  footer div {
+    grid-column: 1 / span 6;
+    width: 100%;
+  }
+  
+  ul.projects, 
+  section.about,
+  section.contact {
+    margin: 40px;
+  }
+  
+  section.header {
+    margin: 40px 0 0 0;
+  }
+  
+  section.image1 img, section.image2 img {
+    padding: 0 40px;
+  }
+  
+  section.about div.image, section.contact div.form {
+    margin: 0;
+  }
+  
+  section.contact div.socials-side {
+    margin: 16px 0 0 0;
+  }
 }
