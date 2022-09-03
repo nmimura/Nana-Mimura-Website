@@ -33,11 +33,6 @@ header {
   justify-content: space-between;
 }
 
-/* header a img {
-  width: 212px;
-  height: 104px;
-} */
-
 nav {
 	font-family: Nunito;
 	font-size: 32px;
@@ -252,6 +247,8 @@ ul.projects div.buttons {
 
 ul.projects button {
   background-color: #e17637;
+  white-space: nowrap;
+  font-size: 16px;
 }
 
 ul.projects button:hover {
@@ -264,6 +261,7 @@ ul.projects img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   flex: 0.5;
   align-self: center;
+  max-width: 176px;
 }
 
 /* about.html-specific element styling */
@@ -346,14 +344,10 @@ section.contact div.icons {
 }
 
 section.contact div.icon1 {
-/*   width: 56px;
-  height: 56px; */
   margin: 0 32px 0 0;
 }
 
 section.contact div.icon2 {
-/*   width: 66px;
-  height: 56px; */
   margin: 0 0 0 32px;
 }
 
@@ -373,17 +367,22 @@ max width = orig 1120 + 64 + 64 for edges
   }
 }
 
-/* media query for smaller screen size / large tablet size */
+/* media query for smaller computer screen size / large tablet size */
 @media (max-width: 978px) {
   header {
     flex-direction: column;
   }
   
-  section.about, section.resume, section.contact, footer {
+  section.home {
+    margin: 64px 0;
+  }
+  
+  section.home, section.about, section.resume, section.contact, footer {
     grid-template-columns: repeat(6, 1fr);
   	gap: 24px 24px;
   }
   
+  section.home h1,
   section.about div.image, 
   section.about div.bio,
   section.header h1, 
@@ -399,15 +398,23 @@ max width = orig 1120 + 64 + 64 for edges
   ul.projects, 
   section.about,
   section.contact {
-    margin: 40px;
+    margin: 48px;
+  }
+  
+  ul.projects {
+    gap: 24px;
+  }
+  
+  ul.projects li {
+    padding: 24px;
   }
   
   section.header {
-    margin: 40px 0 0 0;
+    margin: 48px 0 0 0;
   }
   
   section.image1 img, section.image2 img {
-    padding: 0 40px;
+    padding: 0 48px;
   }
   
   section.about div.image, section.contact div.form {
@@ -417,4 +424,9 @@ max width = orig 1120 + 64 + 64 for edges
   section.contact div.socials-side {
     margin: 16px 0 0 0;
   }
+}
+
+/* media query for medium tablet size */
+@media (max-width: 822px) {
+  
 }
