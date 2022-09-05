@@ -21,15 +21,24 @@
 	<body>
 		<script src="/superhi.js"></script>
 		<header>
-		    <a href="index.html">
-		      <img src="logo1.gif" alt="Nana Mimura logo gif in black" />
-		    </a>
-		  <nav>
+		  <a href="index.html">
+		    <img src="logo1.gif" alt="Nana Mimura logo gif in black" />
+		  </a>
+		  <nav class="normal">
 		    <a href="projects.html" class="color1">projects</a>
 		    <a href="about.html" class="color2">about</a>
 		    <a href="resume.html" class="color3">resume</a>
 		    <a href="contact.html" class="color4">contact</a>
 		  </nav>
+		  <nav id="sideNav" class="side">
+		    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		    <a href="projects.html" class="color1">projects</a>
+		    <a href="about.html" class="color2">about</a>
+		    <a href="resume.html" class="color3">resume</a>
+		    <a href="contact.html" class="color4">contact</a>
+		  </nav>
+		  <tspan class="menu" onclick="openNav()">&#9776;</tspan>
+		  <script src="index.js"></script>
 		</header>
 		
 		<section class="home">
@@ -51,7 +60,7 @@
 		  <div>
 		    designed & coded by nana mimura
 		    <br />
-		    last updated: august 2022
+		    last updated: september 2022
 		  </div>
 		</footer>
 		
