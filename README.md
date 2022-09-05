@@ -20,6 +20,9 @@ Languages used: HTML, CSS
 ## Version Notes
 Most recent version listed first
 
+Version 1.4 (9/5/2022)
+- Set up media query for screen sizes <582px (includes side nav menu!)
+
 Version 1.3 (9/3/2022)
 - Updated date in footer
 - Set up media query for screen sizes <822px and <668px
