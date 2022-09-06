@@ -20,6 +20,9 @@ Languages used: HTML, CSS
 ## Version Notes
 Most recent version listed first
 
+Version 1.5 (9/6/2022)
+- Set up media query for screen sizes <428px (last one!)
+
 Version 1.4 (9/5/2022)
 - Set up media query for screen sizes <582px (includes side nav menu!)
 
@@ -43,8 +46,8 @@ Version 1.0 (8/29/2022)
 - Full desktop-size screen only
 
 ## Future Plans
-1. Add more media queries for different screen sizes
-2. Increase image loading speed
+~~- Add more media queries for different screen sizes~~
+- Increase image loading speed
 
 ## Resources
 Special thanks to SuperHi's [Plan, Design + Code Your First Website](https://student.superhi.com/plan-design-code) course, which helped me learn the basics of website-building.
