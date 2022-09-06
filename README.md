@@ -46,8 +46,8 @@ Version 1.0 (8/29/2022)
 - Full desktop-size screen only
 
 ## Future Plans
-~~- Add more media queries for different screen sizes~~
-- Increase image loading speed
+~~Add more media queries for different screen sizes~~
+Increase image loading speed
 
 ## Resources
 Special thanks to SuperHi's [Plan, Design + Code Your First Website](https://student.superhi.com/plan-design-code) course, which helped me learn the basics of website-building.
