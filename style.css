@@ -82,7 +82,7 @@ nav.side {
   right: 0;
   background-color: #ffffff;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.4s;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -601,5 +601,11 @@ max width = orig 1120 + 64 + 64 for edges
 
 /* media query for large smartphone size */
 @media (max-width: 428px) {
+  section.home br.opt {
+    display: none;
+  }
   
+  ul.projects {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
 }
