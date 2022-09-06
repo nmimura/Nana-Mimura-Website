@@ -47,6 +47,7 @@ Version 1.0 (8/29/2022)
 
 ## Future Plans
 ~~Add more media queries for different screen sizes~~
+<br>
 Increase image loading speed
 
 ## Resources
