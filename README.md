@@ -15,31 +15,28 @@ Mockups:
 For full Figma file, click [here](https://www.figma.com/file/xVuzropjUN1O7zcc9IRnfi/nana-mimura).
 
 ## Code
-Languages used: HTML, CSS
+Languages used: HTML, CSS, JavaScript
 
 ## Version Notes
 Most recent version listed first
 
-Version 1.5 (9/6/2022)
-- Set up media query for screen sizes <428px (last one!)
+Version 1.3 (in progress)
+- Replace about page png with jpg to improve loading speed
+- Update website project card
+- 
 
-Version 1.4 (9/5/2022)
-- Set up media query for screen sizes <582px (includes side nav menu!)
-
-Version 1.3 (9/3/2022)
+Version 1.2 (9/6/2022)
 - Updated date in footer
-- Set up media query for screen sizes <822px and <668px
+- Set up media query for screen sizes <428px (last one!)
+- Set up media query for screen sizes <582px (includes side nav menu!)
+- Set up media query for screen sizes <978px, <822px, and <668px
 
-Version 1.2 (9/2/2022)
+Version 1.1 (9/2/2022)
 - Adjusted margins of header and contact form
 - Increased project tile size to prevent image clipping
 - Replaced logo gifs and socials icons with ones that are sized more accurately to improve loading speed
 - Prevented button text from continuing to next line
-- Set up media query for screen sizes <978px
-
-Version 1.1 (8/31/2022)
-- Updated layout of projects to make page more responsive
-- Started adding media queries (pages will start scaling now)
+- Updated layout of project cards to make projects page more responsive
 
 Version 1.0 (8/29/2022)
 - First pass of all pages completed
