@@ -23,6 +23,7 @@ Most recent version listed first
 Version 1.3 (in progress)
 - Replace about page png with jpg to improve loading speed
 - Update website project card
+- Update resume
 - 
 
 Version 1.2 (9/6/2022)
