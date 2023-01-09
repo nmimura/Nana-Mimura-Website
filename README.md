@@ -3,7 +3,7 @@ A repo for my personal website!
 
 This website has been designed (via Figma) and coded (via SuperHi Editor) by me (Nana Mimura).
 
-Link to my website is: https://nana-mimura.superhi.com/
+Link to my website: https://nana-mimura.superhi.com/
 
 ## Design
 ### Wireframes:
@@ -28,7 +28,8 @@ Most recent version listed first
 
 Version 2.0 (1/8/2023)
 - Moved social media links from contact page to header
-- Left-aligned text in home page, resume page, and contact page
+- Changed font size in header
+- Left-aligned text and changed font size in home page, resume page, and contact page
 - Reformatted resume page so that actual resume pages are left-to-right instead of top-to-bottom
 - Reformatted contact form to be bigger and removed bg
 - Updated date in footer
@@ -58,7 +59,10 @@ Version 1.0 (8/29/2022)
 ## Future Plans
 ~~Add more media queries for different screen sizes~~
 <br>
+Complete V2 redesign
+<br>
 Purchase domain + host (migrate from SuperHi)
+<br>
 Increase image loading speed
 
 ## Resources
