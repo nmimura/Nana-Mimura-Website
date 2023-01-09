@@ -6,10 +6,16 @@ This website has been designed (via Figma) and coded (via SuperHi Editor) by me 
 Link to my website is: https://nana-mimura.superhi.com/
 
 ## Design
-Initial wireframes:
+### Wireframes:
+V2
+![image](https://user-images.githubusercontent.com/35053487/211252241-1e625faa-a6ea-4331-9df4-e276bb2aa273.png)
+V1
 ![image](https://user-images.githubusercontent.com/35053487/187111562-0f6c5eb1-0a89-4ead-94e8-d6459ee76874.png)
 
-Mockups:
+### Mockups:
+V2
+![image](https://user-images.githubusercontent.com/35053487/211251894-cbdf145c-8834-4f5e-88e8-0970fa9e2988.png)
+V1
 ![image](https://user-images.githubusercontent.com/35053487/187113843-92848c7f-b1da-44d1-aec9-89be83d69ec0.png)
 
 For full Figma file, click [here](https://www.figma.com/file/xVuzropjUN1O7zcc9IRnfi/nana-mimura).
@@ -20,11 +26,17 @@ Languages used: HTML, CSS, JavaScript
 ## Version Notes
 Most recent version listed first
 
-Version 1.3 (in progress)
-- Replace about page png with jpg to improve loading speed
-- Update website project card
-- Update resume
-- 
+Version 2.0 (1/8/2023)
+- Moved social media links from contact page to header
+- Left-aligned text in home page, resume page, and contact page
+- Reformatted resume page so that actual resume pages are left-to-right instead of top-to-bottom
+- Reformatted contact form to be bigger and removed bg
+- Updated date in footer
+
+Version 1.3 (9/8/2022)
+- Replaced about page png with jpg to improve loading speed
+- Updated website project card
+- Updated resume
 
 Version 1.2 (9/6/2022)
 - Updated date in footer
@@ -46,6 +58,7 @@ Version 1.0 (8/29/2022)
 ## Future Plans
 ~~Add more media queries for different screen sizes~~
 <br>
+Purchase domain + host (migrate from SuperHi)
 Increase image loading speed
 
 ## Resources
