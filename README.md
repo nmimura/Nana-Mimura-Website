@@ -5,6 +5,15 @@ This website has been designed (via Figma) and coded (via SuperHi Editor) by me 
 
 Link to my website: https://nana-mimura.superhi.com/
 
+# Table of contents
+1. [Design](#design)
+   1. [Wireframes](#wireframes)
+   2. [Mockups](#mockups)
+2. [Code](#code)
+3. [Version Notes](#version-notes)
+4. [Future Plans](#future-plans)
+5. [Resources](#resources)
+
 ## Design
 ### Wireframes:
 V2
@@ -25,6 +34,11 @@ Languages used: HTML, CSS, JavaScript
 
 ## Version Notes
 Most recent version listed first
+
+Version 2.1 (in-progress)
+- Adjusted spacing for social icons in header and submit button in contact form
+- Removed old icon images
+- Cleaned up code for resume and contact pages
 
 Version 2.0 (1/8/2023)
 - Moved social media links from contact page to header
