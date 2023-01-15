@@ -39,6 +39,7 @@ Version 2.1 (in-progress)
 - Adjusted spacing for social icons in header and submit button in contact form
 - Removed old icon images
 - Cleaned up code for resume and contact pages
+- Changed resume download link into button
 
 Version 2.0 (1/8/2023)
 - Moved social media links from contact page to header
