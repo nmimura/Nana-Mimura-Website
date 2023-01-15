@@ -346,19 +346,24 @@ section.resume-header h1 {
   color: #6e8a55;
 }
 
-section.resume-header h1 a {
+section.resume-header button {
+  background-color: #6e8a55;
+}
+
+section.resume-header button:hover {
+  box-shadow:0px 0px 0px 2px #6e8a55 inset;
+  background-color: #f0f4ec;
   color: #6e8a55;
-  font-weight: 700;
 }
 
 section.image1 {
-	margin: 0 0;
+	margin: -24px 0 0 0;
   grid-column: 1 / span 6;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 section.image2 {
-  margin: 0 0;
+  margin: -24px 0 0 0;
   grid-column: 7 / span 6;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -385,10 +390,7 @@ section.contact button:hover {
   color: #597a7c;
 }
 
-/* 
-media query for smaller desktop size
-max width = orig 1120 + 64 + 64 for edges
-*/
+/* media query for smaller desktop size */
 @media (max-width: 1248px) {
   body {
     width: auto;
@@ -411,13 +413,13 @@ max width = orig 1120 + 64 + 64 for edges
   	gap: 24px 24px;
   }
   
+/*   section.contact div.contact-side,  */
   section.home h1,
   section.about div.image, 
   section.about div.bio,
   section.resume-header h1, 
   section.image1 img, 
   section.image2 img, 
-  section.contact div.contact-side, 
   footer div {
     grid-column: 1 / span 6;
     width: 100%;
